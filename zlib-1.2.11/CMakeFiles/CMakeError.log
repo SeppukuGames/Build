@@ -1,0 +1,177 @@
+Determining size of off64_t failed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_be5dc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:11.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_be5dc.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_be5dc.dir\Debug\cmTC_be5dc.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_be5dc.dir\Debug\cmTC_be5dc.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_be5dc.dir\Debug\\" /Fd"cmTC_be5dc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_be5dc.dir\Debug\\" /Fd"cmTC_be5dc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c"
+  OFF64_T.c
+C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(25): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(26): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(27): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(28): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+  
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(25): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+  C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(26): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+  C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(27): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+  C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(28): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+  C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: 'off64_t' : identificador no declarado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_be5dc.vcxproj]
+
+    0 Advertencia(s)
+    5 Errores
+
+Tiempo transcurrido 00:00:00.62
+
+C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/zlib-1.2.11/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9d027.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:12.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_9d027.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_9d027.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_9d027.dir\Debug\cmTC_9d027.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_9d027.dir\Debug\cmTC_9d027.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9d027.dir\Debug\\" /Fd"cmTC_9d027.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9d027.dir\Debug\\" /Fd"cmTC_9d027.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\Debug\cmTC_9d027.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/zlib-1.2.11/CMakeFiles/CMakeTmp/Debug/cmTC_9d027.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/zlib-1.2.11/CMakeFiles/CMakeTmp/Debug/cmTC_9d027.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9d027.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: sÝmbolo externo _fseeko sin resolver al que se hace referencia en la funci¾n _main [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_9d027.vcxproj]
+C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\Debug\cmTC_9d027.exe : fatal error LNK1120: 1 externos sin resolver [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_9d027.vcxproj]
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_9d027.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_9d027.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  CheckFunctionExists.obj : error LNK2019: sÝmbolo externo _fseeko sin resolver al que se hace referencia en la funci¾n _main [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_9d027.vcxproj]
+  C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\Debug\cmTC_9d027.exe : fatal error LNK1120: 1 externos sin resolver [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_9d027.vcxproj]
+
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:01.47
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/zlib-1.2.11/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_29429.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:14.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_29429.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_29429.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_29429.dir\Debug\cmTC_29429.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_29429.dir\Debug\cmTC_29429.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_29429.dir\Debug\\" /Fd"cmTC_29429.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_29429.dir\Debug\\" /Fd"cmTC_29429.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'unistd.h': No such file or directory [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_29429.vcxproj]
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_29429.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_29429.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'unistd.h': No such file or directory [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\zlib-1.2.11\CMakeFiles\CMakeTmp\cmTC_29429.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.82
+
+

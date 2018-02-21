@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\zzip\fseeko.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\zzip\fetch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84D06C89-3A8D-315A-8835-4246C7EA1FF3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

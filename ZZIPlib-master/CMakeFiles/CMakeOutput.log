@@ -1,0 +1,891 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine, versi�n 12.0.40629.0
+[Microsoft .NET Framework, versi�n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci�n iniciada a las 21/02/2018 17:19:27.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\3.10.2\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se crear� "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especific� "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\3.10.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\software\programacion\MSVStudio2013\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Se eliminar� el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilaci�n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\3.10.2\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilaci�n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.52
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b4ebe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:28.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_b4ebe.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_b4ebe.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_b4ebe.dir\Debug\cmTC_b4ebe.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_b4ebe.dir\Debug\cmTC_b4ebe.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b4ebe.dir\Debug\\" /Fd"cmTC_b4ebe.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b4ebe.dir\Debug\\" /Fd"cmTC_b4ebe.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_b4ebe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_b4ebe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_b4ebe.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b4ebe.dir\Debug\testCCompiler.obj
+  cmTC_b4ebe.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_b4ebe.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_b4ebe.dir\Debug\cmTC_b4ebe.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_b4ebe.dir\Debug\cmTC_b4ebe.tlog\cmTC_b4ebe.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_b4ebe.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.77
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_71ff2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:31.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_71ff2.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_71ff2.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_71ff2.dir\Debug\cmTC_71ff2.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_71ff2.dir\Debug\cmTC_71ff2.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_71ff2.dir\Debug\\" /Fd"cmTC_71ff2.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_71ff2.dir\Debug\\" /Fd"cmTC_71ff2.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_71ff2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_71ff2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_71ff2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_71ff2.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_71ff2.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_71ff2.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_71ff2.dir\Debug\cmTC_71ff2.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_71ff2.dir\Debug\cmTC_71ff2.tlog\cmTC_71ff2.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_71ff2.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.42
+
+
+Determining if files direct.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_efd1f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:33.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_efd1f.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_efd1f.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_efd1f.dir\Debug\cmTC_efd1f.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_efd1f.dir\Debug\cmTC_efd1f.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_efd1f.dir\Debug\\" /Fd"cmTC_efd1f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_efd1f.dir\Debug\\" /Fd"cmTC_efd1f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  CheckIncludeFiles.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_efd1f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_efd1f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_efd1f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_efd1f.dir\Debug\CheckIncludeFiles.obj
+  cmTC_efd1f.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_efd1f.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_efd1f.dir\Debug\cmTC_efd1f.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_efd1f.dir\Debug\cmTC_efd1f.tlog\cmTC_efd1f.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_efd1f.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.30
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9c6e9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:38.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_9c6e9.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_9c6e9.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_9c6e9.dir\Debug\cmTC_9c6e9.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_9c6e9.dir\Debug\cmTC_9c6e9.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9c6e9.dir\Debug\\" /Fd"cmTC_9c6e9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9c6e9.dir\Debug\\" /Fd"cmTC_9c6e9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_9c6e9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_9c6e9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_9c6e9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9c6e9.dir\Debug\CheckIncludeFiles.obj
+  cmTC_9c6e9.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_9c6e9.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_9c6e9.dir\Debug\cmTC_9c6e9.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_9c6e9.dir\Debug\cmTC_9c6e9.tlog\cmTC_9c6e9.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_9c6e9.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.41
+
+
+Determining if files io.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_67825.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:39.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_67825.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_67825.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_67825.dir\Debug\cmTC_67825.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_67825.dir\Debug\cmTC_67825.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_67825.dir\Debug\\" /Fd"cmTC_67825.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_67825.dir\Debug\\" /Fd"cmTC_67825.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  CheckIncludeFiles.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_67825.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_67825.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_67825.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_67825.dir\Debug\CheckIncludeFiles.obj
+  cmTC_67825.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_67825.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_67825.dir\Debug\cmTC_67825.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_67825.dir\Debug\cmTC_67825.tlog\cmTC_67825.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_67825.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.15
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_894f0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:41.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_894f0.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_894f0.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_894f0.dir\Debug\cmTC_894f0.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_894f0.dir\Debug\cmTC_894f0.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_894f0.dir\Debug\\" /Fd"cmTC_894f0.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_894f0.dir\Debug\\" /Fd"cmTC_894f0.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_894f0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_894f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_894f0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_894f0.dir\Debug\CheckIncludeFiles.obj
+  cmTC_894f0.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_894f0.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_894f0.dir\Debug\cmTC_894f0.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_894f0.dir\Debug\cmTC_894f0.tlog\cmTC_894f0.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_894f0.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.42
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e97bd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:43.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_e97bd.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_e97bd.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_e97bd.dir\Debug\cmTC_e97bd.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_e97bd.dir\Debug\cmTC_e97bd.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e97bd.dir\Debug\\" /Fd"cmTC_e97bd.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e97bd.dir\Debug\\" /Fd"cmTC_e97bd.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_e97bd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_e97bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_e97bd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e97bd.dir\Debug\CheckIncludeFiles.obj
+  cmTC_e97bd.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_e97bd.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_e97bd.dir\Debug\cmTC_e97bd.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_e97bd.dir\Debug\cmTC_e97bd.tlog\cmTC_e97bd.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_e97bd.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.77
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_64157.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:45.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_64157.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_64157.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_64157.dir\Debug\cmTC_64157.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_64157.dir\Debug\cmTC_64157.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_64157.dir\Debug\\" /Fd"cmTC_64157.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_64157.dir\Debug\\" /Fd"cmTC_64157.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  CheckIncludeFiles.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_64157.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_64157.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_64157.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_64157.dir\Debug\CheckIncludeFiles.obj
+  cmTC_64157.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_64157.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_64157.dir\Debug\cmTC_64157.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_64157.dir\Debug\cmTC_64157.tlog\cmTC_64157.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_64157.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.40
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_64cf1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:19:52.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_64cf1.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_64cf1.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_64cf1.dir\Debug\cmTC_64cf1.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_64cf1.dir\Debug\cmTC_64cf1.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_64cf1.dir\Debug\\" /Fd"cmTC_64cf1.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_64cf1.dir\Debug\\" /Fd"cmTC_64cf1.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  CheckIncludeFiles.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_64cf1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_64cf1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_64cf1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_64cf1.dir\Debug\CheckIncludeFiles.obj
+  cmTC_64cf1.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_64cf1.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_64cf1.dir\Debug\cmTC_64cf1.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_64cf1.dir\Debug\cmTC_64cf1.tlog\cmTC_64cf1.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_64cf1.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.05
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e634e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:10.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_e634e.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_e634e.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_e634e.dir\Debug\cmTC_e634e.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_e634e.dir\Debug\cmTC_e634e.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e634e.dir\Debug\\" /Fd"cmTC_e634e.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e634e.dir\Debug\\" /Fd"cmTC_e634e.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  CheckIncludeFiles.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_e634e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_e634e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_e634e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e634e.dir\Debug\CheckIncludeFiles.obj
+  cmTC_e634e.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_e634e.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_e634e.dir\Debug\cmTC_e634e.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_e634e.dir\Debug\cmTC_e634e.tlog\cmTC_e634e.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_e634e.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.98
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_883a1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:12.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_883a1.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_883a1.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_883a1.dir\Debug\cmTC_883a1.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_883a1.dir\Debug\cmTC_883a1.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_883a1.dir\Debug\\" /Fd"cmTC_883a1.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_883a1.dir\Debug\\" /Fd"cmTC_883a1.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  CheckIncludeFiles.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_883a1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_883a1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_883a1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_883a1.dir\Debug\CheckIncludeFiles.obj
+  cmTC_883a1.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_883a1.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_883a1.dir\Debug\cmTC_883a1.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_883a1.dir\Debug\cmTC_883a1.tlog\cmTC_883a1.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_883a1.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.12
+
+
+Determining if files windows.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b85ce.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:15.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_b85ce.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_b85ce.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_b85ce.dir\Debug\cmTC_b85ce.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_b85ce.dir\Debug\cmTC_b85ce.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b85ce.dir\Debug\\" /Fd"cmTC_b85ce.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b85ce.dir\Debug\\" /Fd"cmTC_b85ce.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  CheckIncludeFiles.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_b85ce.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_b85ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_b85ce.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b85ce.dir\Debug\CheckIncludeFiles.obj
+  cmTC_b85ce.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_b85ce.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_b85ce.dir\Debug\cmTC_b85ce.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_b85ce.dir\Debug\cmTC_b85ce.tlog\cmTC_b85ce.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_b85ce.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.65
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e21c9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:19.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_e21c9.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_e21c9.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_e21c9.dir\Debug\cmTC_e21c9.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_e21c9.dir\Debug\cmTC_e21c9.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e21c9.dir\Debug\\" /Fd"cmTC_e21c9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e21c9.dir\Debug\\" /Fd"cmTC_e21c9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_e21c9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_e21c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_e21c9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e21c9.dir\Debug\CheckIncludeFile.obj
+  cmTC_e21c9.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_e21c9.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_e21c9.dir\Debug\cmTC_e21c9.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_e21c9.dir\Debug\cmTC_e21c9.tlog\cmTC_e21c9.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_e21c9.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.03
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_32442.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:20.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_32442.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_32442.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_32442.dir\Debug\cmTC_32442.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_32442.dir\Debug\cmTC_32442.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_32442.dir\Debug\\" /Fd"cmTC_32442.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_32442.dir\Debug\\" /Fd"cmTC_32442.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_32442.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_32442.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_32442.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_32442.dir\Debug\CheckIncludeFile.obj
+  cmTC_32442.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_32442.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_32442.dir\Debug\cmTC_32442.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_32442.dir\Debug\cmTC_32442.tlog\cmTC_32442.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_32442.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.31
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e2f3c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:21.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_e2f3c.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_e2f3c.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_e2f3c.dir\Debug\cmTC_e2f3c.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_e2f3c.dir\Debug\cmTC_e2f3c.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e2f3c.dir\Debug\\" /Fd"cmTC_e2f3c.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e2f3c.dir\Debug\\" /Fd"cmTC_e2f3c.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_e2f3c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_e2f3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_e2f3c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e2f3c.dir\Debug\CheckIncludeFile.obj
+  cmTC_e2f3c.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_e2f3c.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_e2f3c.dir\Debug\cmTC_e2f3c.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_e2f3c.dir\Debug\cmTC_e2f3c.tlog\cmTC_e2f3c.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_e2f3c.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.18
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4bbe9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:23.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_4bbe9.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_4bbe9.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_4bbe9.dir\Debug\cmTC_4bbe9.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_4bbe9.dir\Debug\cmTC_4bbe9.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4bbe9.dir\Debug\\" /Fd"cmTC_4bbe9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_INT.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4bbe9.dir\Debug\\" /Fd"cmTC_4bbe9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_INT.c"
+  ZZIP_SIZEOF_INT.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_4bbe9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_4bbe9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_4bbe9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4bbe9.dir\Debug\ZZIP_SIZEOF_INT.obj
+  cmTC_4bbe9.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_4bbe9.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_4bbe9.dir\Debug\cmTC_4bbe9.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_4bbe9.dir\Debug\cmTC_4bbe9.tlog\cmTC_4bbe9.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_4bbe9.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.13
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ed047.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:24.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_ed047.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_ed047.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_ed047.dir\Debug\cmTC_ed047.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_ed047.dir\Debug\cmTC_ed047.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ed047.dir\Debug\\" /Fd"cmTC_ed047.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_LONG.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ed047.dir\Debug\\" /Fd"cmTC_ed047.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_LONG.c"
+  ZZIP_SIZEOF_LONG.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_ed047.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_ed047.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_ed047.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ed047.dir\Debug\ZZIP_SIZEOF_LONG.obj
+  cmTC_ed047.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_ed047.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_ed047.dir\Debug\cmTC_ed047.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_ed047.dir\Debug\cmTC_ed047.tlog\cmTC_ed047.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_ed047.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.03
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2677a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:26.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_2677a.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_2677a.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_2677a.dir\Debug\cmTC_2677a.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_2677a.dir\Debug\cmTC_2677a.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2677a.dir\Debug\\" /Fd"cmTC_2677a.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_SHORT.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2677a.dir\Debug\\" /Fd"cmTC_2677a.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_SHORT.c"
+  ZZIP_SIZEOF_SHORT.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_2677a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_2677a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_2677a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2677a.dir\Debug\ZZIP_SIZEOF_SHORT.obj
+  cmTC_2677a.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_2677a.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_2677a.dir\Debug\cmTC_2677a.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_2677a.dir\Debug\cmTC_2677a.tlog\cmTC_2677a.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_2677a.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.17
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7a1ad.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:27.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_7a1ad.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_7a1ad.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_7a1ad.dir\Debug\cmTC_7a1ad.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_7a1ad.dir\Debug\cmTC_7a1ad.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7a1ad.dir\Debug\\" /Fd"cmTC_7a1ad.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7a1ad.dir\Debug\\" /Fd"cmTC_7a1ad.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  CheckIncludeFiles.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_7a1ad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_7a1ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_7a1ad.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7a1ad.dir\Debug\CheckIncludeFiles.obj
+  cmTC_7a1ad.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_7a1ad.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_7a1ad.dir\Debug\cmTC_7a1ad.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_7a1ad.dir\Debug\cmTC_7a1ad.tlog\cmTC_7a1ad.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_7a1ad.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.28
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b89ff.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:29.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_b89ff.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_b89ff.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_b89ff.dir\Debug\cmTC_b89ff.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_b89ff.dir\Debug\cmTC_b89ff.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b89ff.dir\Debug\\" /Fd"cmTC_b89ff.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b89ff.dir\Debug\\" /Fd"cmTC_b89ff.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c"
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_b89ff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_b89ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_b89ff.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b89ff.dir\Debug\CMAKE_SIZEOF_UNSIGNED_SHORT.obj
+  cmTC_b89ff.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_b89ff.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_b89ff.dir\Debug\cmTC_b89ff.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_b89ff.dir\Debug\cmTC_b89ff.tlog\cmTC_b89ff.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_b89ff.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.21
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d4c53.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:20:30.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_d4c53.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_d4c53.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_d4c53.dir\Debug\cmTC_d4c53.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_d4c53.dir\Debug\cmTC_d4c53.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d4c53.dir\Debug\\" /Fd"cmTC_d4c53.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\TestEndianess.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d4c53.dir\Debug\\" /Fd"cmTC_d4c53.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\TestEndianess.c"
+  TestEndianess.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_d4c53.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_d4c53.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/ZZIPlib-master/CMakeFiles/CMakeTmp/Debug/cmTC_d4c53.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d4c53.dir\Debug\TestEndianess.obj
+  cmTC_d4c53.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\Debug\cmTC_d4c53.exe
+FinalizeBuildStatus:
+  Se eliminará el archivo "cmTC_d4c53.dir\Debug\cmTC_d4c53.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_d4c53.dir\Debug\cmTC_d4c53.tlog\cmTC_d4c53.lastbuildstate".
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\ZZIPlib-master\CMakeFiles\CMakeTmp\cmTC_d4c53.vcxproj" (destinos predeterminados).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.39
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

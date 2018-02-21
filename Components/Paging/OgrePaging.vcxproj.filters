@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgreGrid2DPageStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgreGrid3DPageStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgrePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgrePageContent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgrePageContentCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgrePageManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgrePagedWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgrePagedWorldSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\src\OgreSimplePageContentCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgreGrid2DPageStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgreGrid3DPageStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePageConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePageContent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePageContentCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePageContentCollectionFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePageContentFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePageFileFormats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePageStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePagedWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePagedWorldSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePaging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgrePagingPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Components\Paging\include\OgreSimplePageContentCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62DB8C70-8C8F-3858-BECA-2B79779247BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{885ACB3B-2264-3FF8-B237-2A6B01DADE72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

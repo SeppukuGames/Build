@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6CC7E6D7-CDBB-3916-8AAE-870DC280CABC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\OgreMain\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Dependencies\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Dependencies\include\freetype2;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\OgreMain\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Dependencies\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Dependencies\include\freetype2;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\OgreMain\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Dependencies\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Dependencies\include\freetype2;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\OgreMain\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Dependencies\include;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Dependencies\include\freetype2;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre;C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\OgreMain\include\Threading;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\Bites\OgreBites.vcxproj">
+      <Project>{88AEE9E1-3F80-3C20-8D12-67A5220347B6}</Project>
+      <Name>OgreBites</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\RenderSystems\GLSupport\OgreGLSupport.vcxproj">
+      <Project>{923C34D9-5D7A-33D1-A77A-7A7A35279907}</Project>
+      <Name>OgreGLSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\HLMS\OgreHLMS.vcxproj">
+      <Project>{A5521328-E80C-3CB5-AE5D-F951398227B6}</Project>
+      <Name>OgreHLMS</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\OgreMain\OgreMain.vcxproj">
+      <Project>{DE407FA0-1417-387A-9EC1-DC156A2C4CB7}</Project>
+      <Name>OgreMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\MeshLodGenerator\OgreMeshLodGenerator.vcxproj">
+      <Project>{2CE7EA0F-578C-3950-A633-DE5DB1119947}</Project>
+      <Name>OgreMeshLodGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Tools\MeshUpgrader\OgreMeshUpgrader.vcxproj">
+      <Project>{9B491277-333C-3FF8-B216-429AD63E90DE}</Project>
+      <Name>OgreMeshUpgrader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\Overlay\OgreOverlay.vcxproj">
+      <Project>{1F13E096-51FC-3082-B0FB-A27820D3BD1E}</Project>
+      <Name>OgreOverlay</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\Paging\OgrePaging.vcxproj">
+      <Project>{3EFDC168-DACF-3B33-9757-D2035C171124}</Project>
+      <Name>OgrePaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\Property\OgreProperty.vcxproj">
+      <Project>{C2598736-4DA0-3B43-A9E3-9C9984A09962}</Project>
+      <Name>OgreProperty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\RTShaderSystem\OgreRTShaderSystem.vcxproj">
+      <Project>{7B5A4FFC-8F3A-3F64-809E-3D300E337734}</Project>
+      <Name>OgreRTShaderSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\Terrain\OgreTerrain.vcxproj">
+      <Project>{D8B97937-93CC-300A-93C2-760F758787AC}</Project>
+      <Name>OgreTerrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Components\Volume\OgreVolume.vcxproj">
+      <Project>{54124896-BD4A-33DD-8EB2-A2DB23C4BF86}</Project>
+      <Name>OgreVolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Tools\XMLConverter\OgreXMLConverter.vcxproj">
+      <Project>{4552DDC8-ABD8-3598-89FC-491AFAE51228}</Project>
+      <Name>OgreXMLConverter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\PlugIns\BSPSceneManager\Plugin_BSPSceneManager.vcxproj">
+      <Project>{DB5FD019-77E1-3AA8-805E-0694BE70AFD2}</Project>
+      <Name>Plugin_BSPSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\PlugIns\OctreeSceneManager\Plugin_OctreeSceneManager.vcxproj">
+      <Project>{9F92E27F-6B4E-3A4B-B1FD-392779642520}</Project>
+      <Name>Plugin_OctreeSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\PlugIns\OctreeZone\Plugin_OctreeZone.vcxproj">
+      <Project>{AB2B9D5C-98C9-3F08-81E9-B3F06098FA82}</Project>
+      <Name>Plugin_OctreeZone</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\PlugIns\PCZSceneManager\Plugin_PCZSceneManager.vcxproj">
+      <Project>{C6E62A63-AEA5-35A3-9605-80DFCB483D47}</Project>
+      <Name>Plugin_PCZSceneManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\PlugIns\ParticleFX\Plugin_ParticleFX.vcxproj">
+      <Project>{2827922D-64DF-3615-809C-333D2C19D893}</Project>
+      <Name>Plugin_ParticleFX</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\RenderSystems\GL3Plus\RenderSystem_GL3Plus.vcxproj">
+      <Project>{2D119760-A4C0-34D4-B31C-70CA9870729C}</Project>
+      <Name>RenderSystem_GL3Plus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\Tools\VRMLConverter\VRMLConverter.vcxproj">
+      <Project>{A14584CA-5E49-3C47-9CDE-FA76DA2169EF}</Project>
+      <Name>VRMLConverter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,197 @@
+Determining if the include file xaudio2.h exists failed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/SDL2-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_50037.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versión 12.0.40629.0
+[Microsoft .NET Framework, versión 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 21/02/2018 17:21:43.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_50037.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_50037.dir\Debug\cmTC_50037.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_50037.dir\Debug\cmTC_50037.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_50037.dir\Debug\\" /Fd"cmTC_50037.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_50037.dir\Debug\\" /Fd"cmTC_50037.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49): error C2485: 'uuid' : atributo extendido no reconocido [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49): error C2332: 'struct' : falta el nombre de etiqueta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49): error C2079: 'IXAudio2' utiliza struct '<unnamed-tag>' sin definir [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(140): error C2371: 'IXAudio2' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49) : vea la declaración de 'IXAudio2'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(379): error C2371: 'IXAudio2' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49) : vea la declaración de 'IXAudio2'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(389): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(389): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(389): error C2059: error de sintaxis : '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(389): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(394): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(394): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(394): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(399): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(399): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(399): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(429): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(429): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(429): error C2371: 'IXAudio2SourceVoice' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(142) : vea la declaración de 'IXAudio2SourceVoice'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(429): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(430): error C2371: 'WAVEFORMATEX' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmeapi.h(347) : vea la declaración de 'WAVEFORMATEX'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(430): warning C4228: se ha utilizado una extensión no estándar : se omiten los calificadores después de coma en la lista de declaradores [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(430): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(431): warning C4142: nueva definición de tipo sin efecto [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(431): error C2370: 'UINT32' : nueva definición; clase de almacenamiento distinta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : vea la declaración de 'UINT32'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(431): error C2146: error de sintaxis : falta ';' delante del identificador 'Flags' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(432): error C2059: error de sintaxis : 'tipo' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(435): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(449): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(449): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(449): error C2371: 'IXAudio2SubmixVoice' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(143) : vea la declaración de 'IXAudio2SubmixVoice'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(449): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(450): warning C4142: nueva definición de tipo sin efecto [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(450): error C2370: 'UINT32' : nueva definición; clase de almacenamiento distinta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : vea la declaración de 'UINT32'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(450): error C2146: error de sintaxis : falta ';' delante del identificador 'InputChannels' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(450): error C2059: error de sintaxis : 'tipo' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(453): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(468): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(468): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(468): error C2371: 'IXAudio2MasteringVoice' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(144) : vea la declaración de 'IXAudio2MasteringVoice'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(468): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(469): warning C4142: nueva definición de tipo sin efecto [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(469): error C2370: 'UINT32' : nueva definición; clase de almacenamiento distinta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : vea la declaración de 'UINT32'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(469): error C2146: error de sintaxis : falta ';' delante del identificador 'InputChannels' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(470): error C2059: error de sintaxis : 'tipo' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(473): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(478): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(478): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(478): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(483): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(483): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(483): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): warning C4142: nueva definición de tipo sin efecto [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2370: 'UINT32' : nueva definición; clase de almacenamiento distinta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h(76) : vea la declaración de 'UINT32'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2146: error de sintaxis : falta ';' delante del identificador 'OperationSet' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2371: 'XAUDIO2_PERFORMANCE_DATA' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(335) : vea la declaración de 'XAUDIO2_PERFORMANCE_DATA'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): error C2371: 'XAUDIO2_DEBUG_CONFIGURATION' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(346) : vea la declaración de 'XAUDIO2_DEBUG_CONFIGURATION'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): warning C4228: se ha utilizado una extensión no estándar : se omiten los calificadores después de coma en la lista de declaradores [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(510): error C2059: error de sintaxis : 'tipo' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(510): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(511): error C2059: error de sintaxis : '}' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(1184): error C2059: error de sintaxis : 'cadena' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+Compilación del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(430): warning C4228: se ha utilizado una extensión no estándar : se omiten los calificadores después de coma en la lista de declaradores [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(431): warning C4142: nueva definición de tipo sin efecto [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(450): warning C4142: nueva definición de tipo sin efecto [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(469): warning C4142: nueva definición de tipo sin efecto [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): warning C4142: nueva definición de tipo sin efecto [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): warning C4228: se ha utilizado una extensión no estándar : se omiten los calificadores después de coma en la lista de declaradores [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+
+
+"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49): error C2485: 'uuid' : atributo extendido no reconocido [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49): error C2332: 'struct' : falta el nombre de etiqueta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(49): error C2079: 'IXAudio2' utiliza struct '<unnamed-tag>' sin definir [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(140): error C2371: 'IXAudio2' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(379): error C2371: 'IXAudio2' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(389): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(389): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(389): error C2059: error de sintaxis : '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(389): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(394): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(394): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(394): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(399): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(399): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(399): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(429): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(429): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(429): error C2371: 'IXAudio2SourceVoice' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(429): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(430): error C2371: 'WAVEFORMATEX' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(430): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(431): error C2370: 'UINT32' : nueva definición; clase de almacenamiento distinta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(431): error C2146: error de sintaxis : falta ';' delante del identificador 'Flags' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(432): error C2059: error de sintaxis : 'tipo' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(435): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(449): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(449): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(449): error C2371: 'IXAudio2SubmixVoice' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(449): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(450): error C2370: 'UINT32' : nueva definición; clase de almacenamiento distinta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(450): error C2146: error de sintaxis : falta ';' delante del identificador 'InputChannels' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(450): error C2059: error de sintaxis : 'tipo' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(453): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(468): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(468): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(468): error C2371: 'IXAudio2MasteringVoice' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(468): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(469): error C2370: 'UINT32' : nueva definición; clase de almacenamiento distinta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(469): error C2146: error de sintaxis : falta ';' delante del identificador 'InputChannels' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(470): error C2059: error de sintaxis : 'tipo' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(473): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(478): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(478): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(478): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(483): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(483): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(483): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2370: 'UINT32' : nueva definición; clase de almacenamiento distinta [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2146: error de sintaxis : falta ';' delante del identificador 'OperationSet' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(492): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2371: 'XAUDIO2_PERFORMANCE_DATA' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(500): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): error C2143: error de sintaxis : falta ')' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): error C2143: error de sintaxis : falta '{' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): error C2371: 'XAUDIO2_DEBUG_CONFIGURATION' : nueva definición; tipos básicos distintos [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(509): error C2143: error de sintaxis : falta ';' delante de '*' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(510): error C2059: error de sintaxis : 'tipo' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(510): error C2059: error de sintaxis : ')' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(511): error C2059: error de sintaxis : '}' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\xaudio2.h(1184): error C2059: error de sintaxis : 'cadena' [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\CMakeTmp\cmTC_50037.vcxproj]
+
+    6 Advertencia(s)
+    66 Errores
+
+Tiempo transcurrido 00:00:00.88
+
+

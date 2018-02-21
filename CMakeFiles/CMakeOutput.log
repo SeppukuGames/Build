@@ -1,0 +1,432 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine, versi�n 12.0.40629.0
+[Microsoft .NET Framework, versi�n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci�n iniciada a las 21/02/2018 17:18:37.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\3.10.2\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Se crear� "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especific� "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\3.10.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\software\programacion\MSVStudio2013\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Se eliminar� el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilaci�n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\3.10.2\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+
+Compilaci�n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.82
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/3.10.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine, versi�n 12.0.40629.0
+[Microsoft .NET Framework, versi�n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci�n iniciada a las 21/02/2018 17:18:40.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\3.10.2\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "Debug\".
+  Creando directorio "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Se crear� "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especific� "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\3.10.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\software\programacion\MSVStudio2013\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Se eliminar� el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilaci�n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\3.10.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+
+Compilaci�n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.54
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/3.10.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_031cd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 21/02/2018 17:18:42.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_031cd.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_031cd.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_031cd.dir\Debug\cmTC_031cd.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_031cd.dir\Debug\cmTC_031cd.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_031cd.dir\Debug\\" /Fd"cmTC_031cd.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  testCCompiler.c
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_031cd.dir\Debug\\" /Fd"cmTC_031cd.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_031cd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_031cd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_031cd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_031cd.dir\Debug\testCCompiler.obj
+  cmTC_031cd.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_031cd.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTC_031cd.dir\Debug\cmTC_031cd.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_031cd.dir\Debug\cmTC_031cd.tlog\cmTC_031cd.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_031cd.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.91
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_31bfe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 21/02/2018 17:18:45.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_31bfe.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_31bfe.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_31bfe.dir\Debug\cmTC_31bfe.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_31bfe.dir\Debug\cmTC_31bfe.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_31bfe.dir\Debug\\" /Fd"cmTC_31bfe.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_31bfe.dir\Debug\\" /Fd"cmTC_31bfe.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_31bfe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_31bfe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_31bfe.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_31bfe.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_31bfe.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_31bfe.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTC_31bfe.dir\Debug\cmTC_31bfe.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_31bfe.dir\Debug\cmTC_31bfe.tlog\cmTC_31bfe.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_31bfe.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.49
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_af9f5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 21/02/2018 17:18:46.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_af9f5.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_af9f5.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_af9f5.dir\Debug\cmTC_af9f5.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_af9f5.dir\Debug\cmTC_af9f5.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_af9f5.dir\Debug\\" /Fd"cmTC_af9f5.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_af9f5.dir\Debug\\" /Fd"cmTC_af9f5.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_af9f5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_af9f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_af9f5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_af9f5.dir\Debug\testCXXCompiler.obj
+  cmTC_af9f5.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_af9f5.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTC_af9f5.dir\Debug\cmTC_af9f5.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_af9f5.dir\Debug\cmTC_af9f5.tlog\cmTC_af9f5.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_af9f5.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.36
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d3ad0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 21/02/2018 17:18:48.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_d3ad0.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_d3ad0.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_d3ad0.dir\Debug\cmTC_d3ad0.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_d3ad0.dir\Debug\cmTC_d3ad0.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_d3ad0.dir\Debug\\" /Fd"cmTC_d3ad0.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_d3ad0.dir\Debug\\" /Fd"cmTC_d3ad0.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_d3ad0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_d3ad0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_d3ad0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d3ad0.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_d3ad0.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_d3ad0.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTC_d3ad0.dir\Debug\cmTC_d3ad0.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_d3ad0.dir\Debug\cmTC_d3ad0.tlog\cmTC_d3ad0.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_d3ad0.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.04
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_bffb9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 21/02/2018 17:18:50.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_bffb9.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_bffb9.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_bffb9.dir\Debug\cmTC_bffb9.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_bffb9.dir\Debug\cmTC_bffb9.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_bffb9.dir\Debug\\" /Fd"cmTC_bffb9.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\feature_tests.cxx
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_bffb9.dir\Debug\\" /Fd"cmTC_bffb9.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_bffb9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_bffb9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_bffb9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bffb9.dir\Debug\feature_tests.obj
+  cmTC_bffb9.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_bffb9.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTC_bffb9.dir\Debug\cmTC_bffb9.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_bffb9.dir\Debug\cmTC_bffb9.tlog\cmTC_bffb9.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_bffb9.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:00.95
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining size of void* passed with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f456e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 21/02/2018 17:18:51.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_f456e.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_f456e.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_f456e.dir\Debug\cmTC_f456e.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_f456e.dir\Debug\cmTC_f456e.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f456e.dir\Debug\\" /Fd"cmTC_f456e.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CheckTypeSize\OGRE_PTR_SIZE.c
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f456e.dir\Debug\\" /Fd"cmTC_f456e.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CheckTypeSize\OGRE_PTR_SIZE.c
+  
+  OGRE_PTR_SIZE.c
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_f456e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_f456e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_f456e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f456e.dir\Debug\OGRE_PTR_SIZE.obj
+  cmTC_f456e.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_f456e.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTC_f456e.dir\Debug\cmTC_f456e.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_f456e.dir\Debug\cmTC_f456e.tlog\cmTC_f456e.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_f456e.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.12
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED succeeded with the following output:
+Change Dir: C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_17eaa.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine, versi¢n 12.0.40629.0
+[Microsoft .NET Framework, versi¢n 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 21/02/2018 17:18:54.
+Proyecto "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_17eaa.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_17eaa.dir\Debug\".
+  Creando directorio "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_17eaa.dir\Debug\cmTC_17eaa.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_17eaa.dir\Debug\cmTC_17eaa.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /Zi /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_17eaa.dir\Debug\\" /Fd"cmTC_17eaa.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue  /Zm256 C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\src.cxx
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 18.00.40629 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_17eaa.dir\Debug\\" /Fd"cmTC_17eaa.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue  /Zm256 C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\src.cxx
+  
+  src.cxx
+C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\src.cxx(2): warning C4996: 'somefunc': se declar¢ desusado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_17eaa.vcxproj]
+          C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\src.cxx(1) : vea la declaraci¢n de 'somefunc'
+Link:
+  C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_17eaa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_17eaa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/hlocal/Proyecto3/ProyectoBasico/Dependencies/Ogre/Build/CMakeFiles/CMakeTmp/Debug/cmTC_17eaa.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_17eaa.dir\Debug\src.obj
+  cmTC_17eaa.vcxproj -> C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\Debug\cmTC_17eaa.exe
+FinalizeBuildStatus:
+  Se eliminar  el archivo "cmTC_17eaa.dir\Debug\cmTC_17eaa.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "cmTC_17eaa.dir\Debug\cmTC_17eaa.tlog\cmTC_17eaa.lastbuildstate".
+Compilaci¢n del proyecto terminada "C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_17eaa.vcxproj" (destinos predeterminados).
+
+Compilaci¢n correcta.
+
+"C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_17eaa.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\src.cxx(2): warning C4996: 'somefunc': se declar¢ desusado [C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\CMakeFiles\CMakeTmp\cmTC_17eaa.vcxproj]
+
+    1 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:01.26
+
+Source file was:
+__declspec(deprecated) int somefunc() { return 0; }
+    int main() { return somefunc();}

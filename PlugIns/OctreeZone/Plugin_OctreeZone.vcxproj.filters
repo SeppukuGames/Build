@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\OctreeZone\src\OgreOctreeZone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\OctreeZone\src\OgreOctreeZoneDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\OctreeZone\src\OgreOctreeZoneOctree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\OctreeZone\src\OgreOctreeZonePlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\OctreeZone\include\OgreOctreeZone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\OctreeZone\include\OgreOctreeZoneOctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\OctreeZone\include\OgreOctreeZonePlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\include\OgreOctreeZonePrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62DB8C70-8C8F-3858-BECA-2B79779247BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{885ACB3B-2264-3FF8-B237-2A6B01DADE72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

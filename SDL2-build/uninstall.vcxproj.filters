@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-2.0.5\CMakeLists.txt" />
+    <CustomBuild Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\4660a19f28fb02e79f6746d94a5528cc\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\SDL2-build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EFF62438-1B4D-3EA2-AF5D-550ACE13949E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

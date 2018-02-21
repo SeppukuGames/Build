@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgreAntiPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgreCapsule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgreDefaultZone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZFrustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneManagerDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZSceneQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePCZoneFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgrePortalBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\src\OgreSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgreAntiPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgreCapsule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgreDefaultZone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZFrustum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZSceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZSceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZSceneQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePCZoneFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgrePortalBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\PlugIns\PCZSceneManager\include\OgreSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Build\include\OgrePCZPrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62DB8C70-8C8F-3858-BECA-2B79779247BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{885ACB3B-2264-3FF8-B237-2A6B01DADE72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Tools\VRMLConverter\src\VRML2mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Tools\VRMLConverter\vrmllib\src\commentstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Tools\VRMLConverter\vrmllib\src\file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Tools\VRMLConverter\vrmllib\src\indexed_face_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Tools\VRMLConverter\vrmllib\src\node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Tools\VRMLConverter\vrmllib\src\nodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hlocal\Proyecto3\ProyectoBasico\Dependencies\Ogre\Tools\VRMLConverter\vrmllib\src\types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{62DB8C70-8C8F-3858-BECA-2B79779247BB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
